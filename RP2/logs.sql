@@ -23,7 +23,7 @@ USE `logs` ;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `logs`.`logs` (
   `id` INT NOT NULL AUTO_INCREMENT,
-  `description` VARCHAR(128) NOT NULL,
+  `description` VARCHAR(512) NOT NULL,
   `created_time` TIMESTAMP NOT NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB;
